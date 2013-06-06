@@ -1,0 +1,15 @@
+gestiongestion:
+    resource: "@gestiongestionBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+gestion:
+    resource: "@gestionBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+mi_calculadoracalcu:
+    resource: "@miCalculadoracalcuBundle/Controller/"
+    type:     annotation
+    prefix:   /calculadora
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{% block title %}Bienvenidos{% endblock %}</title>
+    </head>
+    <body>
+        <div id="cabecera">
+            {% block sidebar %}
+                <h1>Bienvenidos</h1>
+            {% endblock %}
+        </div>
+ <div id="content">
+ {% block cuerpo %}
+         <h3></h3>
+{% endblock %}
+ {% block pie %}
+       <h4>Todos los derechos recervados</h4>
+{% endblock %}
+ </div>
+ </body>
+</html>

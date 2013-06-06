@@ -1,0 +1,10 @@
+version2calcu:
+    resource: "@version2calcuBundle/Controller/"
+    type:     annotation
+    prefix:   /calcu
+
+calculadora:
+    resource: "@calculadoraBundle/Controller/"
+    type:     annotation
+    prefix:   /calculadora
+
